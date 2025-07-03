@@ -1,0 +1,501 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .animate-fade-in-delay {
+    animation: fadeIn 1s ease-out 0.5s both;
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out both;
+  }
+  
+  .animate-slide-in-left {
+    animation: slideInLeft 1s ease-out both;
+  }
+  
+  .animate-slide-in-right {
+    animation: slideInRight 1s ease-out both;
+  }
+  
+  .animate-bounce-in {
+    animation: bounceIn 1s ease-out both;
+  }
+  
+  .animate-gradient-shift {
+    animation: gradientShift 8s ease-in-out infinite;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulseSlow 4s ease-in-out infinite;
+  }
+  
+  .animate-pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+  
+  .animate-scan {
+    animation: scan 3s linear infinite;
+  }
+  
+  .animate-twinkle {
+    animation: twinkle 2s ease-in-out infinite;
+  }
+  
+  /* Lava Lamp Blob Animations */
+  .animate-lava-blob-1 {
+    animation: lavaBlob1 12s ease-in-out infinite;
+  }
+  
+  .animate-lava-blob-2 {
+    animation: lavaBlob2 15s ease-in-out infinite;
+  }
+  
+  .animate-lava-blob-3 {
+    animation: lavaBlob3 10s ease-in-out infinite;
+  }
+  
+  .animate-lava-blob-4 {
+    animation: lavaBlob4 14s ease-in-out infinite;
+  }
+  
+  .animate-lava-blob-5 {
+    animation: lavaBlob5 11s ease-in-out infinite;
+  }
+  
+  .animate-lava-droplet-1 {
+    animation: lavaDroplet1 8s ease-in-out infinite;
+  }
+  
+  .animate-lava-droplet-2 {
+    animation: lavaDroplet2 9s ease-in-out infinite;
+  }
+  
+  /* Morphing Animations */
+  .animate-morph-1 {
+    animation: morph1 6s ease-in-out infinite;
+  }
+  
+  .animate-morph-2 {
+    animation: morph2 7s ease-in-out infinite;
+  }
+  
+  .animate-morph-3 {
+    animation: morph3 8s ease-in-out infinite;
+  }
+  
+  .animate-morph-4 {
+    animation: morph4 5s ease-in-out infinite;
+  }
+  
+  .animate-morph-5 {
+    animation: morph5 9s ease-in-out infinite;
+  }
+  
+  .animate-morph-6 {
+    animation: morph6 4s ease-in-out infinite;
+  }
+  
+  .animate-morph-7 {
+    animation: morph7 7s ease-in-out infinite;
+  }
+  
+  .animate-morph-8 {
+    animation: morph8 6s ease-in-out infinite;
+  }
+  
+  .animate-morph-9 {
+    animation: morph9 5s ease-in-out infinite;
+  }
+  
+  .animate-morph-10 {
+    animation: morph10 8s ease-in-out infinite;
+  }
+  
+  .animation-delay-300 {
+    animation-delay: 0.3s;
+  }
+  
+  .animation-delay-500 {
+    animation-delay: 0.5s;
+  }
+  
+  .animation-delay-700 {
+    animation-delay: 0.7s;
+  }
+  
+  .animation-delay-1000 {
+    animation-delay: 1s;
+  }
+  
+  .animation-delay-1500 {
+    animation-delay: 1.5s;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background: linear-gradient(135deg, #fb923c, #ec4899, #8b5cf6);
+  }
+  33% {
+    background: linear-gradient(135deg, #f59e0b, #f97316, #ec4899);
+  }
+  66% {
+    background: linear-gradient(135deg, #ec4899, #8b5cf6, #06b6d4);
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scaleX(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleX(1.2);
+  }
+}
+
+@keyframes scan {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+/* Lava Lamp Blob Movement Keyframes */
+@keyframes lavaBlob1 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(40px, -60px) rotate(90deg);
+  }
+  50% {
+    transform: translate(-30px, -40px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-50px, 30px) rotate(270deg);
+  }
+}
+
+@keyframes lavaBlob2 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  33% {
+    transform: translate(-60px, -30px) rotate(120deg);
+  }
+  66% {
+    transform: translate(20px, 50px) rotate(240deg);
+  }
+}
+
+@keyframes lavaBlob3 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translate(25px, -35px) scale(1.1) rotate(180deg);
+  }
+}
+
+@keyframes lavaBlob4 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(35px, 25px) rotate(90deg);
+  }
+  50% {
+    transform: translate(-25px, 45px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-45px, -20px) rotate(270deg);
+  }
+}
+
+@keyframes lavaBlob5 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(30px, -50px) rotate(180deg);
+  }
+}
+
+@keyframes lavaDroplet1 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(15px, -25px) scale(1.2);
+  }
+  50% {
+    transform: translate(-10px, -15px) scale(0.8);
+  }
+  75% {
+    transform: translate(-20px, 10px) scale(1.1);
+  }
+}
+
+@keyframes lavaDroplet2 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(-15px, 20px) scale(1.3);
+  }
+  66% {
+    transform: translate(25px, -10px) scale(0.9);
+  }
+}
+
+/* Morphing Shape Keyframes */
+@keyframes morph1 {
+  0%, 100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    transform: scale(1);
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes morph2 {
+  0%, 100% {
+    border-radius: 40% 60% 60% 40% / 60% 30% 60% 40%;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    border-radius: 60% 40% 30% 70% / 40% 70% 30% 60%;
+    transform: scale(0.9) rotate(180deg);
+  }
+}
+
+@keyframes morph3 {
+  0%, 100% {
+    border-radius: 50% 50% 50% 50% / 60% 40% 60% 40%;
+    transform: scale(1);
+  }
+  33% {
+    border-radius: 70% 30% 50% 50% / 30% 70% 40% 60%;
+    transform: scale(1.2);
+  }
+  66% {
+    border-radius: 30% 70% 40% 60% / 70% 30% 60% 40%;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes morph4 {
+  0%, 100% {
+    border-radius: 60% 40% 40% 60% / 50% 50% 50% 50%;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    transform: scale(1.1) rotate(90deg);
+  }
+}
+
+@keyframes morph5 {
+  0%, 100% {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    transform: scale(1);
+  }
+  25% {
+    border-radius: 70% 30% 60% 40% / 40% 60% 30% 70%;
+    transform: scale(1.15);
+  }
+  50% {
+    border-radius: 30% 70% 40% 60% / 60% 40% 70% 30%;
+    transform: scale(0.85);
+  }
+  75% {
+    border-radius: 60% 40% 70% 30% / 30% 70% 40% 60%;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes morph6 {
+  0%, 100% {
+    border-radius: 40% 60% 50% 50% / 60% 40% 50% 50%;
+    transform: scale(1);
+  }
+  50% {
+    border-radius: 60% 40% 70% 30% / 40% 60% 30% 70%;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes morph7 {
+  0%, 100% {
+    border-radius: 50% 50% 60% 40% / 50% 50% 40% 60%;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    border-radius: 70% 30% 40% 60% / 60% 40% 70% 30%;
+    transform: scale(0.9) rotate(180deg);
+  }
+}
+
+@keyframes morph8 {
+  0%, 100% {
+    border-radius: 60% 40% 50% 50% / 40% 60% 50% 50%;
+    transform: scale(1);
+  }
+  33% {
+    border-radius: 30% 70% 60% 40% / 70% 30% 40% 60%;
+    transform: scale(1.1);
+  }
+  66% {
+    border-radius: 50% 50% 30% 70% / 50% 50% 70% 30%;
+    transform: scale(0.95);
+  }
+}
+
+@keyframes morph9 {
+  0%, 100% {
+    border-radius: 50% 50% 50% 50% / 60% 40% 60% 40%;
+    transform: scale(1);
+  }
+  50% {
+    border-radius: 40% 60% 40% 60% / 50% 50% 50% 50%;
+    transform: scale(1.3);
+  }
+}
+
+@keyframes morph10 {
+  0%, 100% {
+    border-radius: 60% 40% 60% 40% / 50% 50% 50% 50%;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    border-radius: 40% 60% 40% 60% / 70% 30% 70% 30%;
+    transform: scale(0.8) rotate(180deg);
+  }
+}
+
+/* Custom scrollbar with funky colors */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #1a1a1a, #2d1b69);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f59e0b, #ec4899);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #d97706, #db2777);
+}
