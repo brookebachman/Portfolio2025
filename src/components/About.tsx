@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="bg-gradient-to-br from-teal-900 via-blue-900 to-purple-900 py-24 lg:py-32"
     >
-      <div className="max-w-4xl px-6 lg:px-8 mb-10">
+      <div className="max-w-4xl mx-auto px-6 lg:px-8 mb-10">
         <div className="block lg:grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Portrait */}
           <div className="order-2 lg:order-1 w-full lg:max-w-[500px]">
