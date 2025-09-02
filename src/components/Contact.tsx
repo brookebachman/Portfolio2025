@@ -20,6 +20,10 @@ const Contact = () => {
     import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID || "";
   const EMAILJS_SERVICE_ID = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID || "";
 
+  // Debug: Check if env variables are loaded
+  console.log("Public Key:", EMAILJS_PUBLIC_KEY ? "Loaded" : "Missing");
+  console.log("Template ID:", EMAILJS_TEMPLATE_ID ? "Loaded" : "Missing");
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
