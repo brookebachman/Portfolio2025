@@ -76,7 +76,7 @@ const Hero = () => {
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
             <span className="inline-block animate-slide-in-left">Software</span>
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-teal-300 leading-tight animate-slide-in-right animation-delay-300">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-teal-300 animate-slide-in-right animation-delay-300">
               Engineer
             </span>
           </h1>
