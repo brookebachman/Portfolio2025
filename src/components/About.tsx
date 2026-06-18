@@ -27,23 +27,25 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-gray-200 text-lg leading-relaxed">
               <p>
-                I'm a software engineer with over 4 years of experience in
-                full-stack development, building beautiful UIs, and building
-                scalable applications. I specialize in creating robust software
-                solutions that solve complex problems and deliver exceptional
-                user experiences.
+                I started my career in sales — running full-cycle deals, demoing
+                products, and learning what makes customers tick. That frontline
+                experience became my superpower when I transitioned into
+                engineering.
               </p>
               <p>
-                My expertise spans across modern web technologies, cloud
-                platforms, and distributed systems. I've worked with startups
-                ranging from Seed to Series B. No matter the size of the company
-                or team I know I can deliver value.
+                Over 5 years across startups from pre-seed to Series B, I've
+                shipped customer-facing products end-to-end — building design
+                systems, implementing RBAC, and architecting AI agent workflows
+                that cut reporting time by 83%. I've trained engineers, partnered
+                with enterprise customers, and owned the full arc from discovery
+                to production.
               </p>
               <p>
-                Currently based in Denver, I'm passionate about clean code,
-                performance optimization, and leveraging cutting-edge
-                technologies to create software that makes a meaningful impact
-                on users and businesses alike.
+                Now based in Oakland, I work as a Forward Deployed Engineer —
+                the person who sits at the intersection of customers, product,
+                and engineering. I translate pain points into shipped code, and
+                I thrive in the ambiguity of early-stage environments where
+                speed and empathy matter most.
               </p>
             </div>
 

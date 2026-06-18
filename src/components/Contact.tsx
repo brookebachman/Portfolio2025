@@ -84,7 +84,7 @@ const Contact = () => {
             Let's Connect
           </h2>
           <p className="text-xl text-gray-200">
-            Ready to bring your vision to life?
+            Have a problem that needs an engineer who gets customers? Let's talk.
           </p>
         </div>
 

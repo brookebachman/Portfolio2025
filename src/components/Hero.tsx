@@ -75,7 +75,7 @@ const Hero = () => {
           }`}
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
-            <span className="inline-block animate-slide-in-left">Software</span>
+            <span className="inline-block animate-slide-in-left">Forward Deployed</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-teal-300 animate-slide-in-right animation-delay-300">
               Engineer
             </span>
@@ -88,7 +88,7 @@ const Hero = () => {
           }`}
         >
           <p className="text-xl md:text-2xl text-white/90 mb-12 animate-fade-in-up animation-delay-700">
-            Building scalable solutions that power the future
+            From customer discovery to production — shipping fast in ambiguity
           </p>
         </div>
 
