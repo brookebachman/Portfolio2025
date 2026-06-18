@@ -68,15 +68,15 @@ const Hero = () => {
       </div>
 
       {/* Content with Staggered Animations */}
-      <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
+      <div className="relative z-10 text-center max-w-5xl mx-auto px-10 md:px-16">
         <div
           className={`transition-all duration-1500 ease-out ${
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
           }`}
         >
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-none py-2">
             <span className="inline-block animate-slide-in-left">Forward Deployed</span>
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-teal-300 animate-slide-in-right animation-delay-300">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-300 to-teal-300 animate-slide-in-right animation-delay-300 pb-2">
               Engineer
             </span>
           </h1>
@@ -88,7 +88,7 @@ const Hero = () => {
           }`}
         >
           <p className="text-xl md:text-2xl text-white/90 mb-12 animate-fade-in-up animation-delay-700">
-            From customer discovery to production — shipping fast in ambiguity
+            From customer discovery to production - shipping fast in ambiguity
           </p>
         </div>
 
