@@ -37,7 +37,7 @@ const About = () => {
                 shipped customer-facing products end-to-end — building design
                 systems, implementing RBAC, and architecting AI agent workflows
                 that cut reporting time by 83%. I've trained engineers, partnered
-                with enterprise customers, and owned the full arc from discovery
+                directly with customers, and owned the full arc from discovery
                 to production.
               </p>
               <p>
